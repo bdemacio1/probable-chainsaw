@@ -9,13 +9,13 @@ import static io.restassured.RestAssured.given;
 @QuarkusTest
 public class AnimalsResourceTest {
 
-    @Test
-    public void testAnimalsEndpoint() {
-        given()
-          .when().get("/animalResource")
-          .then()
-             .statusCode(200);
-    }
+    // @Test
+    // public void testAnimalsEndpoint() {
+    //     given()
+    //       .when().get("/animalResource")
+    //       .then()
+    //          .statusCode(200);
+    // }
 
     // @Test
     // public void testCountryNameAsyncEndpoint() {
