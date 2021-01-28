@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+   <servlet-name>myServlet</servlet-name>
+   <servlet-class>org.acme.servlet.MyServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>myServlet</servlet-name>
+   <url-pattern>/getData</url-pattern>
+</servlet-mapping>
+
+</web-app>
